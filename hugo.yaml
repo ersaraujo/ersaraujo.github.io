@@ -113,7 +113,7 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    brandLogo: "/static/images/me.png" # Logo for the brand | default is the favicon variable
+    # brandLogo: "/static/images/me.png" # Logo for the brand | default is the favicon variable
     showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "ersaraujo" # Brand name for the brand | default is the title variable
     disableSearch: false
@@ -242,7 +242,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     # items:
     #   - title: Google kickstart runner
@@ -264,7 +264,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     # items:
     #   - title: Hugo Profile
@@ -315,10 +315,10 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
+    title: "Contact Me"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:araujoersa@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -327,18 +327,19 @@ params:
     #   messageRows: 5
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
+    # recentPosts:
+    #   path: "blogs"
+    #   count: 3
+    #   title: Recent Posts
+    #   enable: true
+    #   disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/ersaraujo
+      linkedin: https://linkedin.com/in/elissonrasaraujo
+      twitter: https://twitter.com/elissonrsaraujo
+      instagram: https://instagram.com/elissonrsa
+      medium: https://araujoersa.medium.com/
+      youtube: https://youtube.com/@araujoersa
 
   # List pages like blogs and posts
   listPages:
