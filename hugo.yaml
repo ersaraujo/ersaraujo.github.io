@@ -62,7 +62,7 @@ params:
   title: "ersaraujo"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/images/me.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -81,8 +81,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: true
+    defaultTheme: "dark" # light
 
   font:
     fontSize: 1rem # default: 1rem
@@ -113,9 +113,9 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandLogo: "/static/images/me.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "ersaraujo" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -134,27 +134,28 @@ params:
   hero:
     enable: true
     title: "Elisson Araujo."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    subtitle: "Software Engineer"
+    content: "Undergraduate in Computer Engineering and Autonomous Robotics enthusiast, I am dedicated to high-performance Software Engineering and thrive on the complexity of Embedded Systems."
+    image: /images/hero.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/docs/resume-ersa.pdf"
       download: true
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/ersaraujo
         - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://twitter.com/elissonrsaraujo
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/elissonrasaraujo
+        - icon: fab fa-medium
+          url: https://araujoersa.medium.com/
 
   # About
   about:
@@ -162,99 +163,55 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      I'm a Computer Engineering undergraduate with a passion for high-performance systems and real-world problem-solving. My academic and practical focus areas include advanced Software Engineering, Embedded Systems, and Autonomous Robotics. I am dedicated to developing robust and clean solutions in challenging environments, with experience in R&D and team leadership. My work has involved designing custom communication protocols and integrating complex hardware/software components for real-time applications.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am currently a Researcher at RoboCIn (UFPE Robotics Team), contributing to distributed and autonomous systems.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "C/C++"
+        - "Python"
+        - "Docker"
+        - "mbedOS"
+        - "ROS"
+        - "Embedded Systems"
+        - "Real-time Systems"
+        - "Distributed Systems"
+        - "Communication Protocols"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - company: "Facebook"
-        companyUrl: "https://example.com"
+      - company: "RobôCIn"
+        companyUrl: "https://robocin.com.br"
         jobs:
-          - name: "Senior Software Developer"
-            date: "Jan 2023 - present"
-            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-            info:
-              content: Working as a senior software developer
-            featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                  tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
-                  # tooltip: Example tooltip content
-              customIcons:
-                - icon: /fav.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
-          - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
-            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
-
-      - company: "Amazon"
-        companyUrl: "https://example.com"
-        jobs:
-          - name: "Software Developer"
-            date: "Sep 2020 - Dec 2021"
-            info:
-              content: I worked as a software developer for more than one year in Amazon.
+          - name: "Team Leader"
+            date: "Jan 2022 - Ago 2025"
+            content: "I served as a team leader in Research and Development (R&D) projects. My primary responsibility was to ensure fluid and effective communication between software and hardware teams. 
+                      I was responsible for planning the team's activities and actively participated in resource acquisition (fundraising) for ongoing project development."  
+          - name: "Software Engineering Researcher"
+            date: "Ago 2023 - Ago 2025"
+            content: "I worked as a software developer. My central responsibility was the development of a robust and scalable distributed systems architecture, specifically designed for autonomous robotics. This work was essential for ensuring the efficient performance of a multi-robot system."
+          - name: "Embedded Systems Researcher"
+            date: "Jun 2019 - Ago 2025"
             content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+              I worked on the design and implementation of embedded systems with a focus on high-performance communication, including the development
+              of custom wireless protocols with a focus on hardware and software integration to ensure real-time operation under critical low-latency constraints.
 
-              - Lead backend developer for a product.
-              - Created a frontend design for a product.
+              - Developed custom communication protocols for real-time data exchange between autonomous robots.
+              - Integrated hardware and software components to optimize system performance.
+              - Lead the implementation of embedded solutions for autonomous navigation, control and communication.
 
-      - company: "Apple"
-        companyUrl: "https://example.com"
-        jobs: 
-        - name: "Junior Software Developer"
-          date: "Jan 2020 - Aug 2020"
-          featuredItems:
-            fontAwesomeIcons:
-              - icon: fa-brands fa-react
-                url: https://react.dev/
-              - icon: fab fa-x-twitter
-                url: https://example.com
-            customIcons:
-              - icon: /fav.png
-                url: "https://example.com"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Netflix"
-        companyUrl: "https://example.com"
+      - company: "TOTVS"
+        companyUrl: "https://totvs.com"
         jobs:
-        - name: "UI/UX Designer"
-          date: "June 2017 - Nov 2019"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Google"
-        companyUrl: "https://example.com"
-        jobs:
-        - name: "Product Designer"
-          date: "Feb 2016 - Mar 2017"
-          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          - name: "R&D Engineer"
+            date: "Apr 2023 - Set 2023"
+            content: |
+              I worked as a R&D Engineer at [TOTVS](https://totvs.com) in Recife, Brazil. My primary role was to contribute to the development and modernization of base libraries for proprietary languages (ADVPL, TL++). This involved porting the codebase to support the ARM architecture and ensuring full compatibility across Linux and Windows platforms. Furthermore, I actively participated in optimizing the development workflow through the use of Docker and conducted cross-platform testing.
 
   # Education
   education:

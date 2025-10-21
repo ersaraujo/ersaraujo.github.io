@@ -1,0 +1,26 @@
+# Hugo ignores the 'public' directory by default when building,
+# but we usually don't want to commit the generated site.
+/public/
+
+# If you use the default resource folder, this will ignore the cache
+# and generated images/assets.
+/resources/_gen/
+
+# Ignora qualquer arquivo Markdown de rascunho.
+# Se você usar o parâmetro 'publishDraft: true' no config.toml ou
+# a flag 'hugo server -D', ele será gerado, mas é bom ignorar
+# rascunhos em um repositório compartilhado ou produção.
+/content/**/drafts/
+
+# Arquivos de backup do editor, se existirem
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Ignorar o cache do Go (módulos, etc.), relevante se você usa Go para
+# funções customizadas ou módulos Hugo
+/go.mod
+/go.sum
+/.hugo_cache/
