@@ -219,42 +219,26 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Bachelor of Computer Engineering"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Universidade Federal de Pernambuco, Brazil"
+          url: "https://portal.cin.ufpe.br/"
+        date: "2019 - present"
         content: |-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+            - Teacher Assistant on [Hardware Infrastructure](https://sites.google.com/a/cin.ufpe.br/if674cc/).
+            - [Robotics Team Member](https://robocin.com.br).
+      - title: "Technical Degree of Computer Networks"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
+          name: "ETE Professor Lucilo Avila Pessoa"
+          url: "https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=polo&id=38"
+        date: "2015 - 2017"
+        content: "Studied computer networks, programming, and computer hardware."
       - title: "High School"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "ETE Professor Lucilo Avila Pessoa"
+          url: "https://sisacad.educacao.pe.gov.br/sissel/seip/index.php?p=polo&id=38"
+        date: "2015 - 2017"
 
   # Achievements
   achievements:
